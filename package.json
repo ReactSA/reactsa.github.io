@@ -1,0 +1,29 @@
+{
+  "name": "reactsa",
+  "version": "1.0.0",
+  "description": "reactsa community website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "echo \"Error: not test specififed\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeekChicGoddess/reactsa.github.io.git"
+  },
+  "author": "Melody Templeton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeekChicGoddess/reactsa.github.io/issues"
+  },
+  "homepage": "https://github.com/GeekChicGoddess/reactsa.github.io#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
