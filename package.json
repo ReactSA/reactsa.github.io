@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "deploy": "npm run build&&gh-pages -d build",
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json",
     "test": "echo \"Error: not test specififed\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/GeekChicGoddess/reactsa.github.io/issues"
   },
-  "homepage": "https://geekchicgoddess.github.io/reactsa.github.io/",
+  "homepage": ".",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
@@ -25,6 +26,8 @@
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "gh-pages-deploy": "^0.4.2",
+    "static-site-generator-webpack-plugin": "^3.4.1",
     "webpack-dev-server": "^2.4.5"
   }
 }
