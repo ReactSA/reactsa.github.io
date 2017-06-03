@@ -28,16 +28,5 @@
     "babel-loader": "^7.0.0",
     "gh-pages-deploy": "^0.4.2",
     "webpack-dev-server": "^2.4.5"
-  },
-  "gh-pages-deploy": {
-    "staticpath": "dist",
-    "prep": [
-      "build-sass",
-      "optimize-img"
-    ],
-    "post": [
-      "clean-source"
-    ],
-    "noprompt": false
   }
 }
