@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: not test specififed\" && exit 1"
   },
   "repository": {
