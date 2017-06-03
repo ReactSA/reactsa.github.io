@@ -1,9 +1,10 @@
 var config = {
     entry: './src/index.js', // entry point
     output: {// place where bundled app will be served
-        path: __dirname,
+        path: 'dist',
         publicPath: '/',
-        filename: 'bundle.js'
+        filename: './src/index.js',
+        libraryTarget: 'umd'
     },
     devServer: {
         inline: true, // autorefresh
