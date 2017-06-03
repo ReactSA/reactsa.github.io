@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "deploy": "npm run build&&gh-pages -d build",
+    "deploy": "gh-pages-deploy",
     "clean-source": "rimraf README.md src webroot package.json",
     "test": "echo \"Error: not test specififed\" && exit 1"
   },
@@ -26,6 +26,7 @@
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "gh-pages-deploy": "^0.4.2",
     "webpack-dev-server": "^2.4.5"
   },
   "gh-pages-deploy": {
@@ -39,6 +40,4 @@
     ],
     "noprompt": false
   }
-
 }
-// 11b6aec
