@@ -1,7 +1,7 @@
 var config = {
     entry: './src/index.js', // entry point
     output: {// place where bundled app will be served
-        path: 'dist',
+        path: __dirname + '/dist',
         publicPath: '/',
         filename: './src/index.js',
         libraryTarget: 'umd'
