@@ -19,6 +19,10 @@ var config = {
                 query: {
                     presets: ['es2015', 'react'] // use es2015 and react
                 }
+            },
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'url?limit=25000'
             }
         ]
     }

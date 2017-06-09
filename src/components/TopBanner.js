@@ -1,9 +1,9 @@
 import React from 'react';
+import LogoImg from '/img/reactLogo.png';
 
 
 
 const TopBanner = () => {
-
 
     return(
         <div>
@@ -13,7 +13,8 @@ const TopBanner = () => {
 
             <div className="jumbotron">
                 <div className="row">
-                <img id='reactLogo' src='../img/reactLogo.png' className="col-sm-2"/> <h1 className="col-sm-9">San Antonio React User Group</h1>
+
+                <img id='reactLogo' src={LogoImg} className="col-sm-2"/> <h1 className="col-sm-9">San Antonio React User Group</h1>
                 </div>
                 <p className="lead">Join other React developers in sharing knowledge, discoveries, and code. <br/> Contribute to open source. Open to all skill levels.</p>
             </div>
