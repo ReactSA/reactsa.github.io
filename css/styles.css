@@ -6,12 +6,23 @@ body {
   margin-bottom: 60px;
 }
 .jumbotron {
-  background-color: #2d2d2d;
+  background-color: #222222;
   color: #eee;
 }
 .jumbotron h1 {
+  font-size: 3.7vw;
   color: #00d8ff;
 }
+
+.jumbotron p {
+  font-size: 1.8vw;
+  text-align: center;
+}
+
+#reactLogo {
+  max-width: 12%;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
