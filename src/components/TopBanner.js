@@ -16,7 +16,7 @@ const TopBanner = () => {
 
                 <img id='reactLogo' src={LogoImg} className="col-sm-2"/> <h1 className="col-sm-9">San Antonio React User Group</h1>
                 </div>
-                <p className="lead">Join developers in sharing knowledge, discoveries, and code. <br/> Contribute to open source. Open to all skill levels.</p>
+                <p className="lead">Join other React developers in sharing knowledge, discoveries, and code. <br/> Contribute to open source. Open to all skill levels.</p>
             </div>
         </div>
 
