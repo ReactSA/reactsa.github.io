@@ -2,7 +2,7 @@
 
 The React development community in San Antonio.
 
-Visit this page at [www.ReactSA.com](http://www.ReactSA.com/)
+Visit this page at [www.ReactSA.dev](http://www.ReactSA.dev/)
 
 ## Contribute
 
